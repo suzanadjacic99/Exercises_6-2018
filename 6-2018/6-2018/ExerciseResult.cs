@@ -18,5 +18,10 @@ namespace _6_2018
         public string StudentName { get; set; }
         public string StudentIndex { get; set; }
         public int Points { get; set; }
+
+        public override string ToString()
+        {
+            return Id + " " + StudentName + " " + StudentIndex + " " + Points;
+        }
     }
 }
